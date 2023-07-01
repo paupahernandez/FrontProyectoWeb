@@ -1,0 +1,82 @@
+.main {
+    width: 100%;
+    height: calc(100vh - 430px);
+    overflow: auto;
+}
+
+.bg-container {
+    opacity: 0.4;
+}
+
+.mainpage_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.content_mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.content_mainpage > p {
+    width: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.column_2{
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 2%;
+    text-align: justify;
+    justify-content: center;
+    line-height: 1.2em;
+}
+
+h1{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    text-underline-offset: 10px;
+}
+
+.button-71{
+    margin: 20px;
+}
+
+.alien{
+    width:3%;
+}
+
+.Cohete{
+    margin: 20px;
+    align-items: center;
+    width: 5%;
+}
+
+.divbotones{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}

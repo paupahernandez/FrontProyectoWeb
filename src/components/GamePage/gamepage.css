@@ -1,0 +1,41 @@
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.juntar{
+    display:flex;
+    flex-direction: row;
+}
+
+  .centered{
+    justify-content: center;
+    display: flex;
+    
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Tablero {
+    margin: 10px;
+  }
+  .button-72{
+    
+    max-width: 270px;
+  }
+  .right{
+    position:absolute;
+    right: 0;
+  }
+.button-71 + .button-71 {
+    margin-top: 10px;
+}
